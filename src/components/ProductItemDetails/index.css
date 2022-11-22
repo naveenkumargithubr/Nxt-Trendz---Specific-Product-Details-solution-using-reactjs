@@ -1,0 +1,186 @@
+/* Write your CSS here */
+
+.detailed-products-item-container {
+  height: 100vh;
+  display: flex;
+  padding: 50px;
+}
+
+.image-container {
+  min-width: 400px;
+}
+
+.failure-img {
+  width: 350px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.continue-btn {
+  background-color: rgb(14, 113, 194);
+  padding: 8px 12px 8px 12px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-img {
+  width: 500px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.product-item-main-cont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .product-item-main-cont {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.item-card-detailed-view-cont {
+  width: 400px;
+  padding-left: 50px;
+}
+
+.similar-products-container-home {
+  display: flex;
+  margin: 0px;
+}
+
+.similar-head {
+  font-size: 30px;
+  font-family: 'Roboto';
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+.star-img {
+  width: 20px;
+  height: 20px;
+  margin-left: 6px;
+}
+
+.rating-name {
+  color: #ffffff;
+  font-size: 16px;
+  padding-left: 8px;
+}
+
+.rating-container2 {
+  display: flex;
+  align-items: center;
+  background-color: rgb(13, 150, 192);
+  border-radius: 8px;
+  width: 70px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.reviews-name {
+  margin-left: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.rating-reviews-container {
+  display: flex;
+  align-items: center;
+}
+
+.product-title {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.price-style {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.desc-style {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(85, 84, 84);
+}
+
+.available-style {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.span-style {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.counting-container {
+  display: flex;
+  margin-top: 40px;
+}
+
+.dash-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.dash-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.quantity-style {
+  font-family: 'Roboto';
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.add-btn {
+  background-color: rgb(12, 167, 206);
+  padding: 8px 12px 8px 12px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.similar-head {
+  margin-top: 50px;
+}
